@@ -5,8 +5,6 @@ import Checkbox from '@mui/material/Checkbox';
 
 import {Navigate, useNavigate} from "react-router-dom";
 
-
-
 function Crtacc() {
   const navigate = useNavigate();
   function validation() {

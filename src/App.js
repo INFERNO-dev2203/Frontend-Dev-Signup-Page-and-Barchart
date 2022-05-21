@@ -7,8 +7,8 @@ function App() {
     return (
         <Router>
             <Routes>
-                <Route path='/' exact element={<Crtacc/>} />
-                <Route path='/RenderBChart' exact element={<RenderBchart />} />
+                <Route exact path='/' element={<Crtacc/>} />
+                <Route path='/RenderBChart' element={<RenderBchart />} />
             </Routes>
         </Router>
     )
