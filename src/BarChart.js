@@ -6,7 +6,7 @@ function BarChart({ data }) {
     
   const ref = UseD3(
     (svg) => {
-      const height = 800;
+      const height = 700;
       const width = 800;
       const margin = { top: 20, right: 30, bottom: 30, left: 40 };
 
